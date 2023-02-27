@@ -84,7 +84,7 @@ objectTwo.name = "Faith";
 // console.log({ objectTwo });
 // console.log({ objectClone });
 
-// THIRD APPROACH : CLONING USING THE JSON.parse(JSON.stringify(objectClone));
+// THIRD APPROACH : CLONING USING THE JSON.parse(JSON.stringify(objectClone)) :
 const objectThree = JSON.parse(JSON.stringify(objectClone));
 objectThree.address.zip = 23456;
 // console.log({ objectThree });
